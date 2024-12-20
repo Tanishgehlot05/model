@@ -1,0 +1,13 @@
+train: D:/Projects/3i_v2/dataset/train/images
+val: D:/Projects/3i_v2/dataset/test/images
+test: D:/Projects/3i_v2/dataset/valid/images
+
+nc: 1
+names: ['ball']
+
+roboflow:
+  workspace: pirai-sw6uj
+  project: white-ball-detection-au1kj
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/pirai-sw6uj/white-ball-detection-au1kj/dataset/5
